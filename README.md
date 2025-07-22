@@ -25,45 +25,72 @@ Note: Use only with explicit authorization. This tool is designed for ethical se
 
 Configuration @ Secrets 
 /wp-config.php	
+
 /.env	
+
 /wp-config-sample.php	
+
 /config/database.yml, /config.php	.
+
 /local-config.php, /config-local.php	
 
+
 /wp-content/debug.log	
+
 /error_log, /php_errorlog, /logs/error.log	
+
 /wp-content/*.log, /wp-content/uploads/*.log	
 
 /backup/, /backups/, /wp-content/backups/	
+
 /wp-content/uploads/backups/	
+
 /*.zip, /*.tar.gz, /*.sql, /*.bak	.
+
 /wp-backup.zip, /db-backup.sql	
+
 /.git/, /.svn/, /.hg/	
+
 /.git/config, /.git/logs/HEAD, /.git/index	
+
 /composer.json, /composer.lock	.
+
 /package.json, /webpack.config.js	
+
 /node_modules/	
 
 
 
 
 /readme.html, /license.txt, /changelog.txt
+
 /phpinfo.php, /info.php	
+
 /test.php, /test.php~, /1.php, /phpinfo()	
+
 /old/, /dev/, /staging/	  
 
 /wp-admin/install.php	
+
 /wp-admin/upgrade.php	
+
 /wp-admin/setup-config.php	
+
 /wp-admin/includes/upgrade.php	
 
 /wp-content/plugins/**/debug.log	
+
 /wp-content/plugins/**/config.php	
+
 /wp-content/themes/**/log/	
+
 /wp-content/plugins/**/.env	
 
 /phpunit.xml, /phpunit.xml.dist	
+
 /tests/, /spec/, /__tests__/	
+
 /ci/, /jenkins/, .travis.yml, .gitlab-ci.yml	
+
 .dockerignore, docker-compose.yml	
 
